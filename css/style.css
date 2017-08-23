@@ -1,0 +1,472 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	width: 1600px;
+	height: 802px;
+	margin:0 auto;
+	background: url(../img/fon-header.jpg);
+	text-align: center;
+}
+.menu {
+	height:120px;
+	border-bottom: 1px solid #4b4a4b;
+}
+.ogr {
+	width: 1170px;
+	margin:0 auto;
+	height: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	font-size: 40px;
+	color:#fff;
+	text-decoration: none;
+	margin-left: 40px;
+}
+.logo span {
+	font-family: 'Pacifico', cursive;
+	color:#1dde85;
+	text-transform: uppercase;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	display:flex;
+	list-style: none;
+}
+nav li {
+	margin:0 22px;
+}
+nav a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color:#1dde85;
+	border-bottom: 1px solid #1dde85;
+	padding-bottom: 7px;
+}
+header h1 {
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	color:#fff;
+	text-transform: capitalize;
+	margin-top: 260px;
+}
+header h1 span {
+	font-weight: 900;
+	text-transform: uppercase;
+	color:#1dde85;
+}
+header p {
+	font-weight: 300;
+	font-size: 18px;
+	color:#fff;
+	width: 900px;
+	margin:0 auto;
+	line-height: 36px;
+}
+.service {
+	width: 1600px;
+	margin:0 auto;
+	padding:100px 0;
+	text-align: center;
+}
+.service h2 {
+	font-size: 30px;
+	margin: 0;
+	font-weight: 500;
+	color:#454546;
+}
+.service h2 span {
+	color:#1dde85;
+	text-transform: uppercase;
+}
+.service > p {
+	font-weight: 100;
+	color:#8f8e91;
+	font-size: 18px;
+	line-height: 30px;
+	width: 900px;
+	margin:50px auto;
+}
+.block-service {
+	width: 1170px;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.service-item {
+	width: 358px;
+	height: 250px;
+	border:1px solid #c3c1bf;
+	margin-bottom: 45px;
+	padding:35px 20px;
+	box-sizing: border-box;
+}
+.service-item i {
+	color:#454546;
+	font-size: 35px;
+}
+.service-item h4 {
+	color:#454546;
+	font-size: 24px;
+	font-weight: 500;
+	margin:20px 0 35px;
+}
+.service-item p {
+	color:#8f8e91;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 30px;
+}
+.service-item:hover {
+	border:2px solid #1dde85;
+}
+.service-item:hover i {
+	color:#1dde85;
+}
+.service-item:hover h4 {
+	color:#1dde85;
+}
+.service-item:hover p {
+	color:#454546;
+}
+.meet {
+	width: 1600px;
+	margin:0 auto;
+	text-align: center;
+	padding:100px 0;
+}
+.meet h2 {
+	color:#454546;
+	font-weight: 500;
+	font-size: 30px;
+}
+.block-meet {
+	width: 1170px;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.meet-item {
+	width: 270px;
+	height: 406px;
+	position: relative;
+	overflow: hidden;
+}
+.introtext {
+	height: 68px;
+	position:absolute;
+	bottom:0;
+	background: rgba(69,69,70,.94);
+	color:#fff;
+	width: 100%;
+	padding:15px 0;
+	box-sizing: border-box;
+	transition: .5s .5s;
+	z-index:3;
+}
+.introtext h6 {
+	margin: 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+.introtext p {
+	font-size: 14px;
+	font-weight: 100;
+	margin: 0;
+}
+.mask {
+	width: 100%;
+	height: 100%;
+	background: rgba(29,222,133,.8);
+	position:absolute;
+	top:-100%;
+	transition: .5s;
+	z-index:2;
+}
+.meet-item:hover .mask {
+	top:0;
+}
+.meet-item:hover .introtext {
+	background: none;
+	bottom:170px;
+}
+.socials {
+	height: 40px;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	position: absolute;
+	bottom:-60px;
+	width: 100%;
+	line-height: 40px;
+	z-index:3;
+	transition: .5s .5s;
+}
+.socials a {
+	color:#fff;
+	font-size: 20px;
+	margin:0 5px;
+}
+.meet-item:hover .socials {
+	bottom:40px;
+}
+.meet-item:hover {
+	outline:12px solid #1dde85;
+}
+.works {
+	width: 1600px;
+	margin:0 auto;
+}
+.works h2 {
+	font-size: 30px;
+	font-weight: 500;
+	color:#454546;
+	text-align: center;
+}
+.menu-work {
+	width: 570px;
+	margin:50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.menu-work a {
+	text-decoration: none;
+	color:#434243;
+	font-size: 18px;
+	font-weight: 300;
+	padding-bottom: 10px;
+}
+.menu-work a:hover {
+	color:#1dde85;
+	border-bottom: 1px solid #1dde85;
+}
+.work-image {
+	width: 1170px;
+	margin:0 auto;
+	display:flex;
+}
+.work-image div {
+	overflow: hidden;
+}
+.work-image img {
+	transition: .5s;
+}
+.work-image img:hover {
+	transform: scale(1.2);
+}
+
+@font-face {
+	font-family: 'Conv_Mariupol-Regular';
+	src: url('../fonts/Mariupol-Regular.eot');
+	src: local('☺'), url('../fonts/Mariupol-Regular.woff') format('woff'), 
+	url('../fonts/Mariupol-Regular.ttf') format('truetype'), 
+	url('../fonts/Mariupol-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.more {
+	width: 195px;
+	height: 50px;  
+	font-family: 'Conv_Mariupol-Regular';
+	display: block;
+	background: #1dde85;
+	text-align: center;
+	text-decoration: none;
+	text-transform: capitalize;
+	color:#fff;
+	font-weight: 100;
+	margin:45px auto;
+	line-height: 50px;
+}
+.prices {
+	width: 1600px;
+	margin:0 auto;
+}
+.prices h2 {
+	color:#454546;
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+}
+.price-block {
+	width: 1170px;
+	margin:0 auto;
+	display:flex;
+	justify-content: space-between;
+}
+.price-mini-block {
+	width: 270px;
+	height: 440px;
+	text-align: center;
+}
+.price-mini-block h6 {
+	height: 70px;
+	color:#8f8e91;
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 70px;
+	margin: 0;
+}
+.title {
+	height: 90px;
+	border:1px solid #9d9b98;
+	font-size: 36px;
+	color:#454546;
+	font-family: 'Roboto Slab', serif;
+	line-height: 90px;
+}
+.title sup {
+	font-size: 24px;
+}
+.title span {
+	font-size: 18px;
+	font-weight: 100;
+}
+.price-mini-block:hover .order {
+	border:1px solid #1dde85;
+	border-top: none;
+}
+.price-mini-block:hover h6 {
+	color:#1dde85;
+}
+.price-mini-block:hover .title {
+	background: #1dde85;
+	color:#fff;
+	border:1px solid #1dde85;
+}
+.price-mini-block p {
+	margin: 0;
+	font-size: 14px;
+	color: #8f8e91;
+	line-height: 36px;
+}
+.order a {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #a7a6a2;
+	font-size: 14px;
+	color: #454546;
+	font-weight: 100px;
+	line-height: 40px;
+	margin: 20px auto;
+}
+.price-mini-block:hover a{
+	border: none;
+	color: #fff;
+	background: #1dde85;	
+}
+.contacts {
+	width: 1600px;
+	height: 499px;
+	margin: 0 auto;
+	background: url(../img/contacts.jpg);
+}
+.contacts h2 {
+	font-size: 30px;
+	color: #fff;
+	font-weight: normal;
+	margin: 0;
+	padding: 35px 0;
+	text-align: center;
+}
+.contacts form {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contacts input[type="text"],
+.contacts input[type="email"] {
+	width: 440px;
+	height: 42px;
+	background: none;
+	border:1px solid #b5b7b9 ;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #fff;
+	font-style: italic;
+	outline: none;
+}
+.contacts input[type="text"]:focus,
+.contacts input[type="email"]:focus,
+.contacts textarea:focus{
+	border: 1px solid #1dde85;
+}
+::placeholder {
+	color: #fff;
+}
+.contacts textarea {
+	border:1px solid #b5b7b9;
+	background: none;
+	width: 100%;
+	height: 215px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #fff;
+	font-style: italic;
+	outline: none;
+	margin-top: 25px;
+}
+.contacts input[type="submit"] {
+	width: 195px;
+	height: 50px;
+	color: #fff;
+	background: #1dde85;
+	font-size: 18px;
+	font-weight: 100;
+	border: none;
+	outline: none;
+	margin: 25px auto;
+	cursor:pointer;
+}
+.contacts input[type="submit"]:hover {
+	box-shadow: -5px -5px 5px #fff;
+}
+.contacts input[type="submit"]:active {
+	box-shadow: -5px -5px 5px #fff;
+}
+footer {
+	width: 1600px;
+	background: #0b0a0a;
+	margin: 0 auto;
+	padding: 40px 0 70px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.foot-block {
+	width: 330px;
+	margin: 0 50px;
+	color: #fff;
+}
+.copyright {
+	width: 100%;
+}
+.foot-block ul {columns: 2}
+/*
+
+http://font2web.com
+https://onlinefontconverter.com
+
+*/
+
+
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Roboto Slab', serif;*/
